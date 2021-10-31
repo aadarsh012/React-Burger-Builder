@@ -1,0 +1,10 @@
+.NavigationItem a {
+  text-decoration: none;
+  margin: 3px 4px;
+  color: red;
+}
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+  color: azure;
+}

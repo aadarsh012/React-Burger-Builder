@@ -1,0 +1,27 @@
+.Danger {
+  background-color: transparent;
+  color: rgb(134, 0, 0);
+  margin: 5px;
+  outline: none;
+  font: inherit;
+  box-sizing: border-box;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.Success {
+  background-color: transparent;
+  color: rgb(0, 124, 27);
+  margin: 5px;
+  outline: none;
+  font: inherit;
+  box-sizing: border-box;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  color: grey;
+}

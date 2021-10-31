@@ -1,0 +1,33 @@
+.BuildControl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Add {
+  background-color: black;
+  color: blanchedalmond;
+  width: 6em;
+  height: 3em;
+  display: block;
+  outline: none;
+  cursor: pointer;
+  margin: 6px 12px;
+  font: inherit;
+  font-weight: normal;
+}
+.Remove {
+  background-color: red;
+  color: black;
+  width: 6em;
+  height: 3em;
+  display: block;
+  outline: none;
+  cursor: pointer;
+  margin: 6px 12px;
+  font: inherit;
+  font-weight: normal;
+}
+
+.Remove:disabled {
+  cursor: not-allowed;
+}

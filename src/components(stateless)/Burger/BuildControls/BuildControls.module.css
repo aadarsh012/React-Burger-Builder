@@ -1,0 +1,28 @@
+.BuildControls {
+  display: flex;
+  width: 100%;
+  background-color: bisque;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.OrderButton {
+  width: 7.5rem;
+  height: 35px;
+  margin: 10px 0px;
+  padding: 5px;
+  background-color: rgb(109, 204, 109);
+  color: black;
+  border-radius: 5px;
+  outline: none;
+}
+.OrderButton:hover {
+  background-color: rgb(7, 255, 7);
+  cursor: pointer;
+}
+
+.OrderButton:disabled {
+  cursor: not-allowed;
+}

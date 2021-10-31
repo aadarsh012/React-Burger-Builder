@@ -1,0 +1,21 @@
+.Sidedrawer{
+    height: 100%;
+    width : 30%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 15px;
+    z-index: 200;
+    background-color: beige;
+    box-shadow: 0 0 5px 2px grey;
+    transition: all 0.3s ease-out;
+
+}
+
+.Open {
+    transform: translateX(0);
+}
+.Close{
+    transform: translateX(-100%);
+}

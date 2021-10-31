@@ -1,0 +1,17 @@
+.Input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.InputElement {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 5px;
+}
+
+.Invalid {
+  border: 1px solid red;
+}
